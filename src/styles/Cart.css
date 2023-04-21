@@ -1,6 +1,6 @@
 .lmj-cart {
 	color: white;
-	background-color: #31b572;
+	background-color: #238756;
 	padding: 32px;
 	display: flex;
 	flex-direction: column;
@@ -17,19 +17,39 @@
 	background: none;
 	outline: none;
 	border: none;
+	font-size: 1em;
 	font-weight: 600;
 	cursor: pointer;
 	align-self: self-start;
 	padding: 0;
 	color: white;
 	align-self: flex-end;
+	margin-bottom: 5px;
 }
 
 .lmj-cart-closed {
 	padding: 32px;
 	width: 300px;
+	background-color: rgba(214, 255, 199, 0.5);
+	border-right: solid 3px #238756;
 }
 
 .lmj-cart-closed > button {
-	color: black;
+	display: inline-block;
+	font-weight: bold;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 10px;
+	border: none;
+	background-color: #238756;
+}
+
+.btn-clear {
+	display: inline-block;
+	font-weight: bold;
+	color: #238756;
+	padding: 10px 10px;
+	border-radius: 10px;
+	border: none;
+	background-color: white;
 }

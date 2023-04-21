@@ -1,14 +1,20 @@
 .lmj-footer {
 	color: black;
 	padding: 32px;
-	border-top: solid 3px black;
 	display: flex;
 	justify-content: flex-start;
+	border-top: solid 3px #238756;
 	flex-direction: column;
 	align-items: center;
 	font-weight: 500;
+	background-color: rgba(214, 255, 199, 0.5);
 }
 
 .lmj-footer-elem {
 	margin-bottom: 10px;
+}
+
+.lmj-in {
+	border-radius: 10px;
+	padding: 10px 25px;
 }

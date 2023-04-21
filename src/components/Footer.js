@@ -21,6 +21,7 @@ function Footer() {
       </div>
       <div className="lmj-footer-elem">Laissez-nous votre mail :</div>
       <input
+        className="lmj-in"
         placeholder="Entrez votre mail"
         onChange={handleInput}
         value={inputValue}

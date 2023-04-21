@@ -1,6 +1,8 @@
 .lmj-categories {
+	background-color: rgba(214, 255, 199, 0.5);
 	text-align: center;
 	padding-top: 30px;
+	margin-bottom: 0;
 }
 
 .lmj-categories-select {
@@ -16,5 +18,5 @@
 	padding: 10px 15px;
 	border-radius: 10px;
 	border: none;
-	background-color: #31b472;
+	background-color: #238756;
 }
