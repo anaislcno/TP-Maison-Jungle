@@ -10,8 +10,8 @@ import cactus from "../assets/cactus.jpeg";
 
 export const plantList = [
   {
-    name: "monstera",
-    category: "classique",
+    name: "Monstera",
+    category: "Classique",
     id: "1ed",
     light: 2,
     water: 3,
@@ -19,8 +19,8 @@ export const plantList = [
     price: 15,
   },
   {
-    name: "ficus lyrata",
-    category: "classique",
+    name: "Ficus lyrata",
+    category: "Classique",
     id: "2ab",
     light: 3,
     water: 1,
@@ -29,8 +29,8 @@ export const plantList = [
   },
 
   {
-    name: "pothos argenté",
-    category: "classique",
+    name: "Pothos argenté",
+    category: "Classique",
     id: "3sd",
     light: 1,
     water: 2,
@@ -39,8 +39,8 @@ export const plantList = [
     price: 9,
   },
   {
-    name: "calathea",
-    category: "classique",
+    name: "Calathea",
+    category: "Classique",
     id: "4kk",
     light: 2,
     water: 3,
@@ -50,7 +50,7 @@ export const plantList = [
   },
   {
     name: "olivier",
-    category: "extérieur",
+    category: "Extérieur",
     id: "5pl",
     light: 3,
     water: 1,
@@ -59,8 +59,8 @@ export const plantList = [
   },
 
   {
-    name: "cactus",
-    category: "plante grasse",
+    name: "Cactus",
+    category: "Plante grasse",
     id: "8fp",
     light: 2,
     water: 1,
@@ -68,8 +68,8 @@ export const plantList = [
     price: 6,
   },
   {
-    name: "basilique",
-    category: "extérieur",
+    name: "Basilique",
+    category: "Extérieur",
     id: "7ie",
     light: 2,
     water: 3,
@@ -77,8 +77,8 @@ export const plantList = [
     price: 5,
   },
   {
-    name: "succulente",
-    category: "plante grasse",
+    name: "Succulente",
+    category: "Plante grasse",
     id: "9vn",
     light: 2,
     water: 1,
@@ -87,8 +87,8 @@ export const plantList = [
   },
 
   {
-    name: "menthe",
-    category: "extérieur",
+    name: "Menthe",
+    category: "Extérieur",
     id: "6uo",
     light: 2,
     water: 2,

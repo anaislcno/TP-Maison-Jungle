@@ -1,7 +1,7 @@
 import "../styles/Banner.css";
 
 function Banner({ children }) {
-  return <div className="lmj-banner">{children}</div>;
+  return <header className="lmj-banner">{children}</header>;
 }
 
 export default Banner;

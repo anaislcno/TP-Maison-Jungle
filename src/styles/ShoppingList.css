@@ -3,9 +3,21 @@
 }
 
 .lmj-plant-list {
+	display: flex;
 	list-style-type: none;
 	padding: 32px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	gap: 15px;
+}
+
+.btn-add {
+	display: inline-block;
+	font-weight: bold;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 10px;
+	border: none;
+	background-color: #31b472;
 }

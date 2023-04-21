@@ -5,4 +5,16 @@
 
 .lmj-categories-select {
 	margin-right: 15px;
+	border-radius: 10px;
+	padding: 10px 15px;
+}
+
+.btn-re {
+	display: inline-block;
+	font-weight: bold;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 10px;
+	border: none;
+	background-color: #31b472;
 }

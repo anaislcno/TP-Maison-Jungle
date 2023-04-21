@@ -3,6 +3,7 @@
 	width: 250px;
 	border-radius: 20px;
 	object-fit: cover;
+	margin-bottom: 5px;
 }
 
 .lmj-plant-item {
@@ -12,4 +13,17 @@
 	justify-content: center;
 	flex-direction: column;
 	text-transform: capitalize;
+	position: relative;
+	gap: 5px;
+}
+
+.lmj-plant-item-price {
+    position: absolute;
+    border-radius: 0px 20px 0px 25px;
+    background-color: #31b472;
+    color: #fff;
+    padding: 15px;
+    right: 0;
+    top: 0;
+    font-weight: 500;
 }
