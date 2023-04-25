@@ -31,7 +31,6 @@
 	padding: 32px;
 	width: 300px;
 	background-color: rgba(214, 255, 199, 0.5);
-	border-right: solid 3px #238756;
 }
 
 .lmj-cart-closed > button {
@@ -52,4 +51,26 @@
 	border-radius: 10px;
 	border: none;
 	background-color: white;
+}
+
+.btn-remove {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 10px;
+	color: #238756;
+	width: 20px;
+	height: 20px;
+	padding-right: 5px;
+	border-radius: 50px;
+	border: none;
+	background-color: white;
+}
+
+.basket-list {
+	margin-bottom: 5px;
+}
+
+ul {
+	padding-inline-start: 20px;
 }

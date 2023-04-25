@@ -11,6 +11,22 @@ function Cart({ cart, updateCart }) {
     document.title = `LMJ: ${total}€ d'achats`;
   }, [total]);
 
+  function removePlantFromCart(index) {
+    return function (prevCart) {
+      const cartCopy = [...prevCart];
+      const newAmount = cartCopy[index].amount - 1;
+      if (newAmount === 0) {
+        cartCopy.splice(index, 1);
+      } else {
+        cartCopy[index] = {
+          ...cartCopy[index],
+          amount: newAmount,
+        };
+      }
+      return cartCopy;
+    };
+  }
+
   return isOpen ? (
     <div className="lmj-cart">
       <button
@@ -24,8 +40,14 @@ function Cart({ cart, updateCart }) {
           <h2>Panier</h2>
           <ul>
             {cart.map(({ name, price, amount }, index) => (
-              <div key={`${name}-${index}`}>
-                - {amount} {name} {price}€
+              <div className="basket-list" key={`${name}-${index}`}>
+                <button
+                  className="btn-remove"
+                  onClick={() => updateCart(removePlantFromCart(index))}
+                >
+                  &#10005;
+                </button>
+                {amount} {name} {price}€{" "}
               </div>
             ))}
           </ul>
